@@ -1,0 +1,85 @@
+.topnav {
+    overflow: hidden;
+    background-color: black;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    display: flex;
+    color: white;
+    margin-right: 100px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#AboutUs {
+
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: left;
+    border-bottom: 7px solid rgb(235, 80, 170);
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.lorem33 {
+    font-size: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.ticks {
+    font-size: 18px;
+    margin-left: 350px;
+    list-style: none;
+    columns: 10px 2;
+}
+
+.ticks li:before {
+    content: '✓';
+    color:rgb(235, 80, 170) ;
+    font-weight: bold;
+}
+
+.numbers{
+    font-size: 32px;
+    font-family: sans-serif;
+    margin-top: 100px;
+    margin-left: 250px;
+    list-style: none;
+    columns: 10px 4;
+    color: rgb(205, 54, 142);
+    font-weight:bold;
+}
+footer{
+    font-size: 30px;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-left: 450px;
+    margin-right: 250px;
+    background-color: rgb(235, 80, 170);
+    border-radius: 3px;
+    height: 40px;
+    padding: 5px 5px;
+    color: white;
+}
+button{
+    margin-left: 100px;
+    font-size: 23px;
+    
+    text-decoration: none;
+    display: inline-block;
+    border-width: 3px;
+    border-color: aliceblue;
+    background: rgb(205, 54, 142);
+    color: white;
+}
